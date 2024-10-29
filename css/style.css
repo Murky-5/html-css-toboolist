@@ -1,0 +1,23 @@
+* { /* RESET */
+    box-sizing: border-box; /*determina che i margini ed i padding mantengano la altezza e lunghezza da noi impostata (al contenitore) */
+    margin: 0;
+    padding: 0;
+}
+
+.header-middle {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
