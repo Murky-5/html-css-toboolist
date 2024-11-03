@@ -6,51 +6,56 @@
     font-style: normal;
 }
 
-body{
+body {
     background-color: #F6F8F9;
 }
+
+
+/* Header */
 
 .header-middle {
     background-color: #FFFFFF;
     padding: 10px 0 10px 20px;
 }
 
-.logo{
+.logo {
     vertical-align: middle;
 }
 
-.h1{
+.h1 {
     display: inline-block;
     vertical-align: middle;
     font-weight: 700;
     font-size: 40px;
 }
 
+
 /* Main */
 
-main{
+main {
     margin: 38px auto;
     background-color: #FFFFFF;   
     border-radius: 1%;
     width: 750px;
 }
 
-section{
+section {
     padding: 15px 0 10px 50px;
 }
 
-.btn_section{
+.btn_section {
     border-bottom: 1px solid #F6F8F9;
 }
 
-.table_section{
+.table_section {
     padding-top: 0;
     color: #434851;
 }
 
+
 /* Buttons */
 
-.btn{
+.btn {
     display: inline-block;
     font-size: 10px;
     font-weight: 500;
@@ -60,33 +65,40 @@ section{
     border-radius: 10px;
 }
 
-.bn1{
+.bn1 {
     border-radius: 5px;
     background-color: #14AAF5;
 }
 
-.bn2{
+.bn2 {
     border: 1px solid #C4CBD0;
     border-radius: 5px;
     background-color: #FFFFFF ;
     color: #C4CBD0;
 }
 
+
 /* Table */
 
-.ol_margin{
+.ol_margin {
     margin-top: 30px;
 }
 
-.li_margin{
+.li_margin {
     margin: 20px 0 10px;
     list-style: none;
 }
 
-.strong{
+.folder_task {
     display: block;
     font-weight: 900;
     font-size: 18px;
+}
+
+.task {
+    font-weight: 450;
+    font-size: 18px;
+    vertical-align: baseline;
 }
 
 .check {
@@ -104,12 +116,6 @@ section{
 .cross {
     color: #FF0000;
     border-color: #FF0000;
-}
-
-.a {
-    font-weight: 450;
-    font-size: 18px;
-    vertical-align: baseline;
 }
 
 .blue {
